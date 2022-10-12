@@ -48,14 +48,14 @@ div.buttons {
 button.rating-btn {
     background-color: var(--medium-dark-blue);
     color: var(--light-grey);
-    width: 15%;
+    width: 15.5%;
     padding: var(--padding-main);
     border-radius: 50%;
     outline: 0;
     border: 0;
 }
 
-button.rating-btn:active {
+button.rating-btn:focus {
     background-color: var(--orange);
     color: var(--white);
 }
@@ -71,7 +71,8 @@ button.submit-btn {
 }
 
 button.submit-btn:active {
-    background-color: var(--medium-dark-blue);
+    background-color: var(--white);
+    color: var(--orange);
 }
 
 section.thanks-section {
