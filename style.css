@@ -11,6 +11,7 @@
     --orange: hsl(25, 97%, 53%);
     --font-size-main: 15px;
     --padding-main: 5%;
+    --border-radius: 50%;
 }
 
 body {
@@ -31,7 +32,7 @@ section.state {
 img.star {
     background-color: var(--medium-dark-blue);
     padding: var(--padding-main);
-    border-radius: 50%;
+    border-radius: var(--border-radius);
 }
 
 p { color: var(--light-grey);}
@@ -50,7 +51,7 @@ button.rating-btn {
     color: var(--light-grey);
     width: 15.5%;
     padding: var(--padding-main);
-    border-radius: 50%;
+    border-radius: var(--border-radius);
     outline: 0;
     border: 0;
 }
